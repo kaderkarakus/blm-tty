@@ -1,0 +1,34 @@
+.DS_Store
+*.swp
+*~
+
+# Local build only (release binary lives in dist/)
+/BLM-TTY.app/
+build/
+.swiftpm/
+.build/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Local signing / secrets
+*.p12
+*.cer
+*.mobileprovision
+.env
+.env.*
+
+# GitAtölye
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+.idea/
+.vscode/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+.env.local
+.env.production
+id_rsa
+id_ed25519
+*.pem
